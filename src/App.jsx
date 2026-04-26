@@ -4,7 +4,7 @@ import { AuthProvider } from "./context/AuthContext";
 import { CartProvider } from "./context/CartContext";
 import Home from "./Pages/Home";
 import Products from "./Pages/Products";
-import ProductDetail from "./Pages/ProductDetail";
+import ProductDetail from "./Pages/productDetail";
 import Cart from "./Pages/Cart";
 import Checkout from "./Pages/Checkout";
 import Admin from "./Pages/Admin";
