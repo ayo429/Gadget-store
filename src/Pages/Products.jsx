@@ -65,11 +65,11 @@ export default function Products() {
       <div className="hero-grid" />
       <Navbar />
       <div
-        style={{
-          padding: "40px 48px",
-          background: "#070708",
-          minHeight: "100vh",
-        }}
+        // style={{
+        //   padding: "40px 48px",
+        //   background: "#070708",
+        //   minHeight: "100vh",
+        // }}
       >
         <h1 style={{ fontSize: "28px", color: "#fff", marginBottom: "32px" }}>
           All Products
