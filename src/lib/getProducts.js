@@ -1,5 +1,5 @@
 import { db } from "./firebase";
-import { collection, getDocs, query, where } from "firebase/firestore";
+import { collection, getDocs, query, where, doc, getDoc } from "firebase/firestore";
 
 // Get all products
 export async function getAllProducts() {
@@ -19,7 +19,6 @@ export async function getProductsByCategory(category) {
 
 // Get single product by ID
 export async function getProductById(id) {
-  const { doc, getDoc } = await import("firebase/firestore");
   const ref = doc(db, "products", id);
   const snapshot = await getDoc(ref);
   if (!snapshot.exists()) return null;
