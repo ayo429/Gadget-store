@@ -26,7 +26,7 @@ export default function Deals() {
   return (
     <>
     <Navbar/>
-    <div style={{ padding: "40px 48px", background: "#070708", minHeight: "100vh" }}>
+    <div className="px-4 md:px-12 py-10 min-h-screen" style={{ background: "#070708" }}>
       <h1 style={{ fontSize: "28px", color: "#fff", marginBottom: "8px" }}>Deals</h1>
       <p style={{ color: "#555", fontSize: "14px", marginBottom: "40px" }}>
         Limited time offers — grab them before they're gone!
@@ -37,11 +37,7 @@ export default function Deals() {
       ) : deals.length === 0 ? (
         <p style={{ color: "#555" }}>No deals available right now. Check back later!</p>
       ) : (
-        <div style={{
-          display: "grid",
-          gridTemplateColumns: "repeat(4, 1fr)",
-          gap: "16px",
-        }}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           {deals.map((product) => (
             <div
               key={product.id}
