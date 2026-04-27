@@ -2,7 +2,7 @@ const Products = [
   {
     id: 1,
     name: "Magsafe Phone Case",
-    category: "iPhone 15",
+    category: "iPhone, samsung, android",
     type: "Phone",
     price: 8500,
     icon: "📱",
@@ -10,7 +10,7 @@ const Products = [
   {
     id: 2,
     name: "65W GaN Charger",
-    category: "Universal",
+    category: "Laptop, phones",
     type: "Charger",
     price: 12000,
     icon: "🔌",
@@ -18,7 +18,7 @@ const Products = [
   {
     id: 3,
     name: "Aluminium Laptop Stand",
-    category: "Universal",
+    category: "Dell, hp, ace ...",
     type: "Laptop",
     price: 15000,
     icon: "🖥️",
@@ -26,7 +26,7 @@ const Products = [
   {
     id: 4,
     name: "Wireless Earbuds",
-    category: "Bluetooth",
+    category: "JBL, airpods,earphones",
     type: "Audio",
     price: 22000,
     icon: "🎧",

@@ -58,7 +58,7 @@ function Home() {
         </div>
         <div className="stat">
           <div className="stat-number">
-            2k<span>+</span>
+            1k<span>+</span>
           </div>
           <div className="stat-label">Happy Customers</div>
         </div>
@@ -88,7 +88,6 @@ function Home() {
               <div className="product-thumb">{p.icon}</div>
               <div className="product-body">
                 <div className="product-type">{p.type}</div>
-                <div className="product-name">{p.name}</div>
                 <div className="product-cat">{p.category}</div>
                 {/* <div className="product-footer">
                   <span className="product-price">

@@ -14,7 +14,7 @@ function Navbar() {
     <nav className="nav" style={{ position: "relative" }}>
 
       {/* Logo */}
-      <Link to="/" className="nav-logo">Kidos<span>Gadgets</span></Link>
+      <Link to="/" className="nav-logo">Gadget<span>store</span></Link>
 
       {/* Desktop links — hidden on mobile */}
       <ul className="nav-links hidden md:flex">
